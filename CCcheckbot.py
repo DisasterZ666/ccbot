@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import requests
 from requests.exceptions import HTTPError
 
-
-updater = Updater(token='289497572:AAEMoucjgJjnvKSHk6SanWn14-CB--6NMPI')
+TOKEN = ""
+updater = Updater(token=TOKEN)
 dispatcher = updater.dispatcher
 def start(bot, update):
 	bot.sendMessage(chat_id=update.message.chat_id, text="type in the cc code e.g. ccst9010 to check info")
@@ -45,7 +45,7 @@ def checkleft(code):
 		waiting = "Waiting: " + listofcells[index + 5].getText() + '\n'
 		finalstring = finalstring + cccode + title + subclass + quota + pleft + waiting + '\n\n'
 		print(finalstring)
-	
+
 	#get time from end of page
 	time = website.find('p', attrs={'style' : 'font-size:13px'})
 
