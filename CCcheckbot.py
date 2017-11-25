@@ -43,7 +43,7 @@ def checkleft(code):
 		quota = "Quota: " + listofcells[index + 3].getText() + '\n'
 		pleft = "Places Left: " + listofcells[index + 4].getText() + '\n'
 		waiting = "Waiting: " + listofcells[index + 5].getText() + '\n'
-		finalstring = finalstring + cccode + title + subclass + quota + pleft + waiting + '\n\n'
+		finalstring = finalstring + cccode + title + subclass + quota + pleft + waiting + '\n'
 		print(finalstring)
 
 	#get time from end of page
