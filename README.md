@@ -3,6 +3,7 @@
 The script will retrieve info from  
 https://sweb.hku.hk/ccacad/ccc_appl/enrol_stat.html  
 and show the course info via telegram  
+## Screenshot
 ![Demo picture](demo.png)
 
 
