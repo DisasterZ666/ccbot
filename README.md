@@ -11,6 +11,6 @@ and show the course info via telegram
 ```
 TG_TOKEN=111111111:AAAAAAAAAAAAAAAAAAAAAA-AA_-AAA-AAAA python3 CCcheckbot.py
 ```
-Replace with you own token
+Replace with your own token
 
 
